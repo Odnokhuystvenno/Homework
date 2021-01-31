@@ -10,15 +10,17 @@
   }
   
   .post {
-    width: 32%;
+    /* width: 32%;
+    opacity: 0.4; 
+    float: left;*/
     background-color: red;
-    /* opacity: 0.4; */
-    float: left;
   }
-  
-  .empty-place {
-    float: left;
-    background-color: gold;
-    margin: 0px 0px 2% 2%;
-    font-size: 0px;
-  }
+.col {
+  width: 31.25%;
+  float: left;
+  padding: 0 0 0 30px;
+}
+
+.col:first-child {
+  padding-left: 0px;
+}
