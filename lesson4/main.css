@@ -1,26 +1,23 @@
-
 .clearfix {
     clear: both;
-  }
-  
-  .container {
+}
+
+.container {
     width: 965px;
     margin: 0 auto;
     background-color: gold;
-  }
-  
-  .post {
-    /* width: 32%;
-    opacity: 0.4; 
-    float: left;*/
+}
+
+.post {
     background-color: red;
-  }
+}
+
 .col {
-  width: 31.25%;
-  float: left;
-  padding: 0 0 0 30px;
+    width: 31.25%;
+    float: left;
+    padding: 0 0 0 30px;
 }
 
 .col:first-child {
-  padding-left: 0px;
+    padding-left: 0px;
 }
