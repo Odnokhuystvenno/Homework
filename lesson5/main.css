@@ -1,0 +1,60 @@
+.intro-title {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.intro-subtitle {
+  font-size: 30px;
+  font-weight: normal;
+  color: gray;
+}
+
+.t-main-post {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.t-regular-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.t-article-content {
+  font-size: 14px;
+  font-weight: normal;
+  color: gray;
+}
+
+.t-artic-reg-footer {
+  font-size: 12px;
+  color: gray;
+}
+
+.t-footer-a {
+  font-weight: bold;
+}
+
+.t-main-what-is {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.t-article-what-is-content {
+  font-size: 16px;
+  font-weight: normal;
+  color: gray;
+}
+
+.t-artic-what-is-footer {
+  font-size: 14px;
+  color: gray;
+}
+
+.icons {
+  font-size: 16px;
+}
+
+.t-see-more {
+  font-size: 16px;
+  font-weight: bold;
+}
