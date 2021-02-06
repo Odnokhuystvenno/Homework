@@ -59,11 +59,27 @@ a {
     color: gray;
 }
 
-.icons {
-    font-size: 16px;
-}
-
 .t-see-more {
     font-size: 16px;
     font-weight: bold;
+}
+
+.main_nav {
+    width: 965px;
+    height: 85px;
+    margin: 40px 0;
+    border: 3px solid red;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    justify-self: right;
+}
+
+.icons {
+    width: 30%;
+    font-size: 16px;
+    justify-items: right;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
