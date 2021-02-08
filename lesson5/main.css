@@ -66,25 +66,34 @@ a {
     margin: 39px 0 43px;
 }
 
-.reg-posts {
-    display: flex;
-    justify-content: space-between;
+.col {
+    width: 33.3%;
+    float: left;
+    padding: 0 15px;
 }
 
 .post-2,
 .post-3,
 .post-4 {
-    background-image: url(./images/image2.png);
-    /* background-position: right; */
-    /*  background-size: cover; */
-    background-repeat: no-repeat;
     height: 382px;
-    width: 33.3%;
-    float: left;
-    padding: 0 15px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
     border: 1px solid #E2E2E2;
     border-radius: 5px;
     box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+}
+
+.post-2 {
+    background-image: url(./images/image2.png);
+}
+
+.post-3 {
+    background-image: url(./images/image4.png);
+}
+
+.post-4 {
+    background-image: url(./images/image5.png);
 }
 
 .t-main-post {
@@ -96,13 +105,14 @@ a {
 .t-regular-title {
     font-size: 20px;
     font-weight: bold;
+    margin: 197px 0 15px 16px;
 }
 
 .t-article-content {
     font-size: 14px;
     font-weight: normal;
     color: gray;
-    margin: 0 52px;
+    margin: 15px 25px 22px 17px;
 }
 
 .t-artic-main-footer {
@@ -119,7 +129,12 @@ a {
     margin: 0 0 0 245px;
 }
 
-.t-main-footer-a,
+.t-artic-reg-footer {
+    margin: 22px 24px 24px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .t-footer-a {
     font-weight: bold;
 }
