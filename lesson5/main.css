@@ -102,16 +102,24 @@ a {
     margin: 41px 54px 27px;
 }
 
+.t-main-article-content {
+    margin: 27px 0 0 52px;
+}
+
 .t-regular-title {
     font-size: 20px;
     font-weight: bold;
     margin: 197px 0 15px 16px;
 }
 
+.t-main-article-content,
 .t-article-content {
     font-size: 14px;
     font-weight: normal;
     color: gray;
+}
+
+.t-article-content {
     margin: 15px 25px 22px 17px;
 }
 
