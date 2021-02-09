@@ -10,7 +10,7 @@ a {
 .main_nav {
     width: 965px;
     height: 85px;
-    margin: 40px 0;
+    margin: 40px auto;
     border: 3px solid red;
     position: relative;
     display: flex;
