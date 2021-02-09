@@ -28,6 +28,17 @@ a {
     align-items: center;
 }
 
+.intro {
+    width: 1152px;
+    height: 467px;
+    background: #FBFBFB;
+}
+
+.title {
+    height: 146px;
+    width: 354px;
+}
+
 .intro-title {
     font-size: 60px;
     font-weight: bold;
