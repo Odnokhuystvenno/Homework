@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col,
+.col-4,
+.col-5,
+.col-7,
+.col-8 {
+    padding: 0 15px;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-4 {
+    width: 33.333%;
+}
+
+.col-5 {
+    width: 41.666%;
+}
+
+.col-7 {
+    width: 58.333%;
+}
+
+.col-8 {
+    width: 66.666%;
+}
+
+.post {
+    background-color: red;
+}
+
+.btn {
+    width: 220px;
+    height: 71px;
+    background-color: #fff;
+}
+
+.btn--dark {
+    background-color: #333333;
+    color: #fff;
+}
+
+.intro-slides__btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
