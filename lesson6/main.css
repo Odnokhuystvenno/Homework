@@ -113,9 +113,7 @@
     background: #F2F2F2;
 }
 
-.article-1,
-.article-2,
-.article-3 {
+.article {
     background: #FBFBFB;
     margin-bottom: 60px;
 }
