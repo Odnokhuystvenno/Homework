@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson 6</title>
+    <title>Lesson 7</title>
 
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="/font/stylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="./CSS/Gallery.css" />
+    <link rel="stylesheet" href="./font/stylesheet.css" type="text/css" />
 </head>
 
 <body>
@@ -34,8 +34,8 @@
     <section class="intro">
         <div class="container">
             <h1 class="main-title">
-                НАШИ <br />
-                <span class="main-title__accent">ПРОЕКТЫ</span>
+                ГАЛЕРЕЯ <br />
+                <span class="main-title__accent">ФОТОГРАФИЙ</span>
             </h1>
             <hr class="line main-title__line">
         </div>
@@ -43,23 +43,41 @@
 
     <section class="content">
         <div class="container">
-            <div class="date-counter">
-                <div class="date date-counter_date">
-                    <span class="date__item date__item--isCurrent">01</span>
-                    <div class="date__devider"><img src="./images/Line-slash.png" alt="" class="line-slash"></div>
-                    <span class="date__item">03</span>
+            <div class="row photos">
+                <div class="col-2_4 photos__description">
+                    <img src="./images/image19.png" alt="" class="photos__photo" />
+                    <span class="photos__description-text">Описание или пояснение к изображению.</span>
                 </div>
-                <div class="date-controls">
-                    <button class="date-controls__item date-controls__item_isDisabled">
-                            <img src="./images/ico-shape.png" alt="" class="img-arrow date-controls__item__img-arrow img-arrow_isReversed">
-                    </button>
-                    <button class="date-controls__item">
-                        <img src="./images/ico-shape.png" alt="" class="img-arrow date-controls__item__img-arrow">
-                    </button>
-                </div>
+                <img src="./images/Rectangle23.png" alt="" class="col-2_4 photos__photo" />
+                <img src="./images/Rectangle24.png" alt="" class="col-2_4 photos__photo" />
+                <img src="./images/Rectangle25.png" alt="" class="col-2_4 photos__photo" />
+                <img src="./images/Rectangle26.png" alt="" class="col-2_4 photos__photo" />
+                <img src="./images/Rectangle27.png" alt="" class="col-2_4 photos__photo" />
+                <img src="./images/Rectangle28.png" alt="" class="col-2_4 photos__photo" />
+                <img src="./images/Rectangle29.png" alt="" class="col-2_4 photos__photo" />
+                <img src="./images/Rectangle30.png" alt="" class="col-2_4 photos__photo" />
+                <img src="./images/Rectangle31.png" alt="" class="col-2_4 photos__photo" />
             </div>
         </div>
     </section>
+
+    <div class="container">
+        <div class="date-counter">
+            <div class="date date-counter_date">
+                <span class="date__item date__item--isCurrent">01</span>
+                <div class="date__devider"><img src="./images/Line-slash.png" alt="" class="line-slash"></div>
+                <span class="date__item">03</span>
+            </div>
+            <div class="date-controls">
+                <button class="date-controls__item date-controls__item_isDisabled">
+                            <img src="./images/ico-shape.png" alt="" class="img-arrow date-controls__item__img-arrow img-arrow_isReversed">
+                    </button>
+                <button class="date-controls__item">
+                        <img src="./images/ico-shape.png" alt="" class="img-arrow date-controls__item__img-arrow">
+                    </button>
+            </div>
+        </div>
+    </div>
 
 </body>
 

@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    font-size: 8px;
+}
+
+body {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-size: 1.6rem;
+    color: #333333;
+}
+
+.header-nav__link {
+    color: #666;
+}
+
+.header-nav__link_border {
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1S;
+}
+
+.col,
+.col-1,
+.col-2_4,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-sm-1,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-lg-1,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8 {
+    padding: 0 15px;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-1 {
+    width: 8.333%;
+}
+
+.col-2_4 {
+    width: 20%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.333%;
+}
+
+.col-5 {
+    width: 41.666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.333%;
+}
+
+.col-8 {
+    width: 66.666%;
+}
+
+.header-logo,
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 102px;
+    align-items: center;
+}
+
+.main-title {
+    font-weight: 300;
+    color: #BDBDBD;
+    margin: 63px 0 30px;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.main-title__accent {
+    font-weight: bold;
+    color: #333333;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.photos__photo {
+    margin: 30px 0 0;
+}
+
+.photos__description-text {
+    display: block;
+    background-color: #FBFBFB;
+    padding: 20px 20px 64px;
+}
+
+.date-counter {
+    display: flex;
+    margin: 60px 0 120px 0px;
+}
+
+.img-arrow_isReversed {
+    transform: rotate(180deg);
+}
+
+.date__item {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #BDBDBD;
+}
+
+.date__item--isCurrent {
+    color: #333333;
+}
+
+.date-counter_date {
+    display: flex;
+    width: 143px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 26px;
+}
+
+.date-controls {
+    display: flex;
+    justify-content: space-between;
+    width: 129px;
+}
+
+.date-controls__item {
+    width: 53px;
+    height: 53px;
+    background: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F2F2F2;
+}
